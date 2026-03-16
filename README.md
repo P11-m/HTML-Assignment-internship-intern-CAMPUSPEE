@@ -1,48 +1,37 @@
-Login & Authentication Web Application
-    This project is a simple authentication-based web application developed using HTML, CSS, and JavaScript.
-    The project was created in VS Code and pushed to a GitHub repository for version control.
-    It includes Login, Registration, Forgot Password, Reset Password, and Dashboard pages with proper redirections between pages.
-pages created:
-  1. Login Page
-       Username input field
-       Password input field
-       Login button (redirects to Dashboard)
-       Forgot Password link (redirects to Forgot Password page)
-       Create New Account link (redirects to Register page)
+# Authentication System UI
 
-  2.Register Page
-        Name
-        Email ID
-        Phone Number
-        Password
-        Confirm Password
-        Register button (redirects to Login page)
-        “I already have an account” link (redirects to Login page)
+## Technologies Used
+- HTML
+- CSS
+- Bootstrap
+- JavaScript
 
-  3. Forgot Password Page
-        Email input field
-        Send Password Reset Link button
-        Redirects to Reset Password page
+## Features
+- Login Page
+- Register Page
+- Forgot Password
+- Reset Password
+- Dashboard
 
-  4. Reset Password Page
-        Enter New Password
-        Confirm New Password
-        Update Password button
-        Redirects to Login page after password update
+## Screenshots
 
-   5. Dashboard Page
-         Welcome message
-         Logout button
-         Logout redirects user back to Login page
+### Login Page
+![Login]
+![alt text](login.png-1.png)
 
-Page Navigation Flow
-    Login → Dashboard
-    Forgot Password → Reset Password → Login
-    Register → Login
-    Dashboard → Logout → Login
+### Register 
+![Register]
+(![alt text](register.png.png))
 
+### Forgot Password
+![Forgot]
+![alt text](forgot.png.png)
 
-Technologies Used
-   HTML
-  Visual Studio Code
-  Git & GitHub
+### Reset Password
+![Reset]
+(![alt text](<rest password.png.png>)
+
+### Dashboard
+![Dashboard]
+![alt text](dashboard.png.png)
+ 
