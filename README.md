@@ -16,23 +16,16 @@
 ## Screenshots
 
 ### Login Page
-![Login]
-![alt text](login.png-2.png)
+![login](login.png-4.png)
 
 
-### Register 
-![Register]
-(![alt text](register.png.png))
+### Register Page
+![register](register.png-2.png)            
 
 ### Forgot Password
-![Forgot]
-![alt text](forgot.png.png)
+![forgot](forgot.png-2.png)
 
 ### Reset Password
-![Reset]
-(![alt text](<rest password.png.png>)
-
+![rest](<rest password.png-2.png>)
 ### Dashboard
-![Dashboard]
-![alt text](dashboard.png.png)
- 
+![dashboard](dashboard.png-2.png)
