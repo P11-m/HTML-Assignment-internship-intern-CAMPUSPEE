@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="author" content="Dennis">
+<meta name="keywords" content="html,Basics of WebApp">
+<meta name="description" content="My Website for Learning">
+
+<title>My First Website | Campuse</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<style>
+
+body{
+margin:0;
+font-family:Arial;
+background: linear-gradient(135deg,#ff9a9e,#fbc2eb,#a6c1ee);
+min-height:100vh;
+}
+
+/* Navbar */
+.navbar{
+box-shadow:0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* Dashboard cards */
+.card{
+border-radius:15px;
+box-shadow:0 8px 20px rgba(0,0,0,0.2);
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-5px);
+}
+
+h2{
+color:#6a5acd;
+font-weight:bold;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-dark bg-dark">
+<div class="container">
+<span class="navbar-brand">My Dashboard</span>
+<a href="login.html" class="btn btn-danger">Logout</a>
+</div>
+</nav>
+
+<!-- Welcome Section -->
+<div class="container text-center mt-5">
+<h2>Welcome to the Dashboard</h2>
+<p>You are successfully logged in.</p>
+</div>
+
+<!-- Dashboard Options -->
+<div class="container mt-4">
+<div class="row g-4">
+
+<div class="col-md-4">
+<div class="card p-4 text-center">
+<h4>Profile</h4>
+<p>View and update your profile information.</p>
+<button class="btn btn-primary">Open</button>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card p-4 text-center">
+<h4>Settings</h4>
+<p>Manage your account settings.</p>
+<button class="btn btn-warning">Open</button>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card p-4 text-center">
+<h4>Reports</h4>
+<p>Check your activity and reports.</p>
+<button class="btn btn-success">Open</button>
+</div>
+</div>
+
+</div>
+</div>
+
+</body>
+</html>
