@@ -16,16 +16,16 @@
 ## Screenshots
 
 ### Login Page
-![login](login.png-4.png)
+![login](screenshots/login.png.png)
 
 
 ### Register Page
-![register](register.png-2.png)            
+![register](screenshots/register.png.png)            
 
 ### Forgot Password
-![forgot](forgot.png-2.png)
+![forgot](screenshots/forgot.png.png)
 
 ### Reset Password
-![rest](<rest password.png-2.png>)
+![rest](<screenshots/rest password.png.png>)
 ### Dashboard
-![dashboard](dashboard.png-2.png)
+![dashboard](screenshots/dashboard.png.png)
